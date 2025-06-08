@@ -36,7 +36,7 @@ public class Main {
 
      public static double divide(double a, double b) {
         if (b == 0) {
-            throw new IllegalArgumentException("Nelze dělit nulou");
+            throw new IllegalArgumentException("Nelzee dělit nulou");
         }
         return a / b;
      }
